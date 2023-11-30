@@ -22,14 +22,22 @@ header{
 }
 
 #game{
+    background-color: white;
 }
 
 .square {
-    background-color: white;
     border: 1px solid black;
     height: 100px;
     width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.clicked{
+    background-color: aqua;
+}
+
+.bomb{
+    background-color: red;
 }
