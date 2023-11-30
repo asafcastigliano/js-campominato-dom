@@ -18,6 +18,7 @@ function createCell(gameElement) {
         for (let j = 0; j < 10; j++) {
             const cell = document.createElement("div");
             cell.classList.add("square");
+            cell.innerHTML = number;
             cell.dataset.value = number;
             row.appendChild(cell);
             number++;
